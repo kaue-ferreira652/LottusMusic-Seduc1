@@ -110,6 +110,38 @@ h1{
     text-align: center;
 }
 
+.section-records{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    background-color: var(--color-LottusNight);
+    padding: 90px 0;
+}
+    
+.section-records h2{
+    color: var(--color-light);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-title);
+    font-weight: 400;
+}
 
+.records-container{
+    display: flex;
+    gap: 40px;
+}
 
+.records-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.records-card h3{
+    color: var(--color-light);
+    font-size: var(--font-size-h6);
+    font-family: var(--font-title);
+    font-weight: 400;
+}
 
